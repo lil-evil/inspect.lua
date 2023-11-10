@@ -26,7 +26,7 @@ To use inspect in your Lua project, you need to require the module:
 ```lua
 local inspect = require"inspect"
 
-print(inspect(_G, {depth=1, color=true, format=true}))
+print(inspect(_G, {depth=1, color=true, compact=true}))
 ```
 
 ## Documentation
